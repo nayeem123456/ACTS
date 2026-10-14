@@ -49,11 +49,11 @@ export function About() {
             </span>
             <span className="developer-pill">
               <Award size={16} />
-              <span>{isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finishes'}</span>
+              <span>{isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finish'}</span>
             </span>
             <span className="developer-pill">
               <Clock size={16} />
-              <span>{isArabic ? '10 سنوات تأسيس • 22 سنة خبرة' : '10 Yrs Company • 22 Yrs Experience'}</span>
+              <span>{isArabic ? '10 سنوات تأسيس • 22 سنة خبرة' : '10 Years Company • 22 Years Experience'}</span>
             </span>
             <span className="developer-pill">
               <Activity size={16} />
@@ -83,7 +83,7 @@ export function About() {
               <p className="reveal-text delay-3" style={{ color: 'var(--text-secondary)', lineHeight: 1.8, marginBottom: '2rem' }}>
                 {isArabic
                   ? 'بصفتنا مقاولاً معتمداً ومسجلاً رسمياً لدى شركاء مشاريع في الإمارات في الإمارات، نلتزم بأعلى معايير السلامة والجودة والاشتراطات الهندسية للمطورين، ونقدم تشطيبات أكثر سلاسة وجودة في مشاريع التجديد والتأهيل بدبي، مع دعم للطوارئ فقط 24/7 وعن طريق الاتصال فقط.'
-                  : 'We operate with deep familiarity of project requirements, municipal NOC submissions, and rigorous quality benchmarks. For comprehensive renovation and refurbishment projects in Dubai, we deliver smooth and better finishes, supported by 24/7 active support only in emergency conditions via call only.'}
+                  : 'We operate with deep familiarity of project requirements, municipal NOC submissions, and rigorous quality benchmarks. For comprehensive renovation and refurbishment projects in Dubai, we deliver smooth and better finish, supported by 24/7 active support only in emergency conditions via call only.'}
               </p>
 
               {/* Approach to Quality */}
@@ -133,12 +133,12 @@ export function About() {
                     <Award size={22} style={{ color: 'var(--color-gold)', flexShrink: 0, marginTop: '2px' }} />
                     <div>
                       <strong style={{ display: 'block', fontSize: '0.95rem', color: 'var(--text-primary)' }}>
-                        {isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finishes'}
+                        {isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finish'}
                       </strong>
                       <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
                         {isArabic
                           ? 'تشطيبات أكثر سلاسة وجودة تغطي الأعمال الإنشائية، تكسيات الرخام، التمديدات الكهروميكانيكية، وجودة المواد المركبة.'
-                          : 'Smooth and better finishes across Dubai renovation projects, with careful attention to plumbing, electrical installations, and structural works.'}
+                          : 'Smooth and better finish across Dubai renovation projects, with careful attention to plumbing, electrical installations, and structural works.'}
                       </span>
                     </div>
                   </div>
@@ -213,13 +213,13 @@ export function About() {
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem', marginBottom: '0.75rem' }}>
                   <Award size={22} style={{ color: 'var(--color-gold)' }} />
                   <h3 style={{ fontSize: '1.15rem', fontWeight: 700, margin: 0 }}>
-                    {isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finishes'}
+                    {isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finish'}
                   </h3>
                 </div>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.7, margin: 0 }}>
                   {isArabic
                     ? 'ننفذ مشاريع التجديد والتأهيل الشاملة في دبي بتشطيبات أكثر سلاسة وجودة، مع تنسيق دقيق للأعمال المدنية والإنشائية وأنظمة الكهروميكانيك.'
-                    : 'For comprehensive villa renovation and refurbishment projects in Dubai, ACTS delivers smooth and better finishes across civil works, structural details, and integrated MEP systems.'}
+                    : 'For comprehensive villa renovation and refurbishment projects in Dubai, ACTS delivers smooth and better finish across civil works, structural details, and integrated MEP systems.'}
                 </p>
               </div>
 
@@ -236,7 +236,7 @@ export function About() {
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem', marginBottom: '0.75rem' }}>
                   <Clock size={20} style={{ color: 'var(--color-gold)' }} />
                   <h3 style={{ fontSize: '1.15rem', fontWeight: 700, margin: 0 }}>
-                    {isArabic ? '10 سنوات شركة • 22 سنة خبرة • 50+ مشروع' : '10 Yrs Company • 22 Yrs Exp • 50+ Projects'}
+                    {isArabic ? '10 سنوات شركة • 22 سنة خبرة • 50+ مشروع' : '10 Years Company • 22 Years Experience • 50+ Projects'}
                   </h3>
                 </div>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.7, margin: 0 }}>
@@ -263,7 +263,7 @@ export function About() {
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.7, margin: 0 }}>
                   {isArabic
                     ? 'تقديم خدمات مقاولات وتشطيب هندسي متكاملة ترتقي بالمساحات السكنية والتجارية في الإمارات، مع تشطيبات أكثر سلاسة وجودة وأعلى معايير الإتقان والسلامة.'
-                    : 'To deliver uncompromising contracting precision, timeless luxury craftsmanship, and dependable project management that elevates living spaces across the UAE with smooth and better finishes.'}
+                    : 'To deliver uncompromising contracting precision, timeless luxury craftsmanship, and dependable project management that elevates living spaces across the UAE with smooth and better finish.'}
                 </p>
               </div>
             </div>
@@ -292,7 +292,7 @@ export function About() {
               <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', margin: 0 }}>
                 {isArabic
                   ? 'مقاول مسجل لدى شركاء مشاريع في الإمارات • تشطيبات أكثر سلاسة وجودة • دعم للطوارئ فقط 24/7 وعن طريق الاتصال فقط.'
-                  : 'UAE Project Partners • Smooth and better finishes • 24/7 Emergency Call Support Only.'}
+                  : 'UAE Project Partners • Smooth and better finish • 24/7 Emergency Call Support Only.'}
               </p>
             </div>
             <div style={{ display: 'flex', gap: '1rem' }}>

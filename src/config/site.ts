@@ -19,7 +19,7 @@ export const siteConfig = {
   developerNetworkAr: 'شركاء مشاريع في الإمارات',
   qualityPromise: 'Genuine spare parts • High-quality materials • No compromise in quality',
   qualityPromiseAr: 'قطع غيار أصلية • مواد عالية الجودة • لا تنازل عن الجودة',
-  finishPromise: 'Smooth and better finishes',
+  finishPromise: 'Smooth and better finish',
   finishPromiseAr: 'تشطيبات أكثر سلاسة وجودة',
   availability: '24/7 active only in emergency conditions via call only',
   availabilityAr: 'نشاط 24/7 في حالات الطوارئ فقط وعن طريق الاتصال فقط',

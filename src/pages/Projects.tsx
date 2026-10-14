@@ -86,11 +86,11 @@ export function Projects() {
           <div className="reveal-on-scroll delay-3" style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', marginTop: '1.75rem' }}>
             <span className="developer-pill">
               <Award size={16} />
-              <span>{isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finishes'}</span>
+              <span>{isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finish'}</span>
             </span>
             <span className="developer-pill">
               <Clock size={16} />
-              <span>{isArabic ? '10 سنوات شركة • 22 سنة خبرة' : '10 Yrs Company • 22 Yrs Experience'}</span>
+              <span>{isArabic ? '10 سنوات شركة • 22 سنة خبرة' : '10 Years Company • 22 Years Experience'}</span>
             </span>
             <span className="developer-pill">
               <Activity size={16} />

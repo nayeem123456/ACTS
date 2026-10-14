@@ -133,12 +133,12 @@ export function ServiceDetail() {
               {isRenovation && (
                 <span className="developer-pill" style={{ background: 'hsla(38, 55%, 60%, 0.2)', borderColor: 'var(--color-gold)' }}>
                   <Award size={15} />
-                  <span>{isArabic ? 'بتشطيبات أكثر سلاسة وجودة' : 'WITH SMOOTH N BETTER FINISHES'}</span>
+                  <span>{isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finish'}</span>
                 </span>
               )}
               <span className="developer-pill">
                 <Clock size={15} />
-                <span>{isArabic ? '10 سنوات شركة • 22 سنة خبرة' : '10 Yrs Company • 22 Yrs Exp'}</span>
+                <span>{isArabic ? '10 سنوات شركة • 22 سنة خبرة' : '10 Years Company • 22 Years Experience'}</span>
               </span>
               <span className="developer-pill">
                 <Activity size={15} />

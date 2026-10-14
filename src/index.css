@@ -830,7 +830,7 @@ img {
   font-weight: 700;
   letter-spacing: 0.05em;
   color: var(--color-gold);
-  text-transform: uppercase;
+  text-transform: none;
   z-index: 2;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
@@ -1332,7 +1332,7 @@ img {
   font-weight: 700;
   letter-spacing: 0.05em;
   color: var(--color-gold);
-  text-transform: uppercase;
+  text-transform: none;
   z-index: 2;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
   white-space: nowrap;

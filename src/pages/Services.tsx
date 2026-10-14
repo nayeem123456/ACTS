@@ -54,7 +54,7 @@ export function Services() {
         description={
           isArabic
             ? 'دليل خدمات شركة أكتس: مقاول معتمد لدى شركاء مشاريع في الإمارات، 10 سنوات شركة، 22 سنة خبرة، وتشطيبات أكثر سلاسة وجودة.'
-            : 'Explore ACTS comprehensive inventory: Quality-first UAE project delivery. 10 years company, 22 years experience, and smooth and better finishes.'
+            : 'Explore ACTS comprehensive inventory: Quality-first UAE project delivery. 10 years company, 22 years experience, and smooth and better finish.'
         }
         canonicalUrl="/services"
       />
@@ -81,7 +81,7 @@ export function Services() {
           <p className="reveal-text delay-2" style={{ maxWidth: '780px', color: 'var(--text-secondary)', fontSize: '1.1rem', lineHeight: 1.7, margin: 0 }}>
             {isArabic
               ? 'حلول هندسية متكاملة تغطي كافة تخصصات التجديد، والأعمال الكهروميكانيكية، والتشطيبات الداخلية، والمسابح والمساحات الخارجية في دولة الإمارات — مع تشطيبات أكثر سلاسة وجودة ودعم للطوارئ فقط 24/7 وعن طريق الاتصال فقط.'
-              : 'Complete multi-disciplinary engineering solutions covering villa renovation, building systems, interior fit-outs, swimming pools, and facilities maintenance — delivered with smooth and better finishes and 24/7 emergency call support only.'}
+              : 'Complete multi-disciplinary engineering solutions covering villa renovation, building systems, interior fit-outs, swimming pools, and facilities maintenance — delivered with smooth and better finish and 24/7 emergency call support only.'}
           </p>
 
           {/* Credentials Pills */}
@@ -92,11 +92,11 @@ export function Services() {
             </span>
             <span className="developer-pill">
               <Award size={16} />
-              <span>{isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finishes'}</span>
+              <span>{isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finish'}</span>
             </span>
             <span className="developer-pill">
               <Clock size={16} />
-              <span>{isArabic ? '10 سنوات شركة • 22 سنة خبرة' : '10 Yrs Company • 22 Yrs Experience'}</span>
+              <span>{isArabic ? '10 سنوات شركة • 22 سنة خبرة' : '10 Years Company • 22 Years Experience'}</span>
             </span>
             <span className="developer-pill">
               <Activity size={16} />

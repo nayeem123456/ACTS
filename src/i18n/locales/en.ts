@@ -31,7 +31,7 @@ const en = {
     renovationTitle: 'Renovation & Refurbishment',
     renovationSubtitle: 'Our Primary Service',
     renovationText:
-      'From villa transformations to full interior refurbishments, ACTS manages every aspect of your renovation and refurbishment project — civil works, finishing, MEP coordination, and landscaping — with clear communication, smooth and better finishes, and quality execution.',
+      'From villa transformations to full interior refurbishments, ACTS manages every aspect of your renovation and refurbishment project — civil works, finishing, MEP coordination, and landscaping — with clear communication, smooth and better finish, and quality execution.',
     renovationCta: 'Explore Renovation Services',
     featuredProjectsTitle: 'Project Highlights',
     featuredProjectsNote:
@@ -66,7 +66,7 @@ const en = {
   about: {
     pageTitle: 'About ACTS — 10 Years Company, 22 Years Experience',
     metaDescription:
-      'Discover ACTS: 10 years as an established UAE company, 22 years of experience, 50+ completed projects, and smooth and better finishes in Dubai.',
+      'Discover ACTS: 10 years as an established UAE company, 22 years of experience, 50+ completed projects, and smooth and better finish in Dubai.',
     headline: 'About ACTS UAE',
     overviewTitle: 'Company Overview & Credentials',
     overviewText:
@@ -78,7 +78,7 @@ const en = {
     historyNote: '',
     missionTitle: 'Our Mission',
     missionText:
-      'To deliver uncompromising contracting precision, timeless luxury craftsmanship, and dependable project management that elevates living spaces across the UAE while protecting client investments with guaranteed warranties.',
+      'To deliver uncompromising contracting precision, timeless luxury craftsmanship, and dependable project management that elevates living spaces across the UAE with smooth and better finish, superior materials, and dedicated site execution.',
     missionNote: '',
     visionTitle: 'Our Vision',
     visionText:
@@ -91,9 +91,9 @@ const en = {
     registrationsText:
       'ACTS serves UAE project partners all over the UAE, delivering structural, architectural, MEP, landscaping, garden civil, and joinery fit-out works with genuine parts and high-quality materials.',
     registrationsNote: '',
-    finishTitle: 'Smooth and better finishes',
+    finishTitle: 'Smooth and better finish',
     finishText:
-      'For renovation and refurbishment projects in Dubai, ACTS delivers smooth and better finishes across civil works, structural details, and integrated MEP systems, backed by 24/7 support only in emergency conditions via call only.',
+      'For renovation and refurbishment projects in Dubai, ACTS delivers smooth and better finish across civil works, structural details, and integrated MEP systems, backed by 24/7 support only in emergency conditions via call only.',
     finishNote: '',
     contactCta: 'Contact ACTS Directly',
   },
@@ -820,7 +820,7 @@ const en = {
     headline: 'Project Gallery',
     subheadline:
       'A selection of work from the ACTS portfolio. Project captions and details will be added once confirmed by the client.',
-    note: 'Quality-first UAE project delivery • 10 Years Company • 22 Years Experience • Smooth and Better Finishes',
+    note: 'Quality-first UAE project delivery • 10 Years Company • 22 Years Experience • Smooth and Better Finish',
     filterAll: 'All',
     filterRenovation: 'Renovation',
     filterLandscaping: 'Landscaping',
@@ -841,7 +841,7 @@ const en = {
     emailPlaceholder: '[Email to be confirmed]',
     navTitle: 'Navigation',
     rights: '© 2026 ACTS. All rights reserved.',
-    disclaimer: 'ACTS delivers renovation, refurbishment, MEP, landscaping, and specialist works across the UAE. 10 years of company experience, 50+ projects completed, 24/7 support only in emergency conditions via call only, and smooth and better finishes.',
+    disclaimer: 'ACTS delivers renovation, refurbishment, MEP, landscaping, and specialist works across the UAE. 10 years of company experience, 50+ projects completed, 24/7 support only in emergency conditions via call only, and smooth and better finish.',
   },
 
   // ─── Search ──────────────────────────────────────────────────────────────────

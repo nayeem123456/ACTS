@@ -83,7 +83,7 @@ export function Home() {
         },
         {
           q: 'How does ACTS maintain quality on renovation and refurbishment projects?',
-          a: 'For comprehensive renovation and refurbishment projects in Dubai, ACTS delivers smooth and better finishes across structural work, architectural joinery, plumbing, and integrated MEP systems.',
+          a: 'For comprehensive renovation and refurbishment projects in Dubai, ACTS delivers smooth and better finish across structural work, architectural joinery, plumbing, and integrated MEP systems.',
         },
         {
           q: 'What is ACTS company track record and industry experience?',
@@ -196,7 +196,7 @@ export function Home() {
             <span className="trust-badge-item__highlight">
               {isArabic ? 'تشطيبات التجديد والتأهيل' : 'Renovation Finishes'}
             </span>
-            <span>            {isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finishes'}</span>
+            <span>{isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finish'}</span>
           </div>
         </div>
 
@@ -208,7 +208,7 @@ export function Home() {
             <span className="trust-badge-item__highlight">
               {isArabic ? 'الخبرة والتأسيس' : 'Track Record'}
             </span>
-            <span>{isArabic ? '10 سنوات شركة • 22 سنة خبرة' : '10 Yrs Company • 22 Yrs Exp'}</span>
+            <span>{isArabic ? '10 سنوات شركة • 22 سنة خبرة' : '10 Years Company • 22 Years Experience'}</span>
           </div>
         </div>
 
@@ -257,7 +257,7 @@ export function Home() {
               <p className="company-intro__text reveal-text delay-3">
                 {isArabic
                   ? 'نحن ندمج بين الحرفية العالية، والإدارة الهندسية الصارمة للمشاريع، والالتزام بالمواعيد المحددة لنقدم حلولاً متكاملة ترفع من قيمة عقارك وجودة معيشتك في دولة الإمارات، مع تشطيبات أكثر سلاسة وجودة في مشاريع التجديد بدبي.'
-                  : 'We blend master craftsmanship, disciplined engineering management, and transparent budgeting to deliver enduring spaces that exceed the exacting standards of UAE homeowners and property investors — with smooth and better finishes on Dubai renovation projects.'}
+                  : 'We blend master craftsmanship, disciplined engineering management, and transparent budgeting to deliver enduring spaces that exceed the exacting standards of UAE homeowners and property investors — with smooth and better finish on Dubai renovation projects.'}
               </p>
 
               {/* Developer registration pill tag */}
@@ -334,7 +334,7 @@ export function Home() {
               />
               <span className="renovation-feature__badge">
                 <ShieldCheck size={14} style={{ flexShrink: 0 }} />
-                <span>{isArabic ? 'بتشطيبات أكثر سلاسة وجودة' : 'WITH SMOOTH N BETTER FINISHES'}</span>
+                <span>{isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finish'}</span>
               </span>
             </div>
 
@@ -376,7 +376,7 @@ export function Home() {
                     <strong>{isArabic ? 'الجودة والموافقات الرسمية:' : 'Quality & Approvals:'}</strong>{' '}
                     {isArabic
                       ? 'تشطيبات أكثر سلاسة وجودة في مشاريع التجديد بدبي مع إجراءات مرخصة لدى شركاء مشاريع في الإمارات والبلدية.'
-                      : 'For renovation and refurbishment, we deliver smooth and better finishes in Dubai, with work completed to high UAE project standards.'}
+                      : 'For renovation and refurbishment, we deliver smooth and better finish in Dubai, with work completed to high UAE project standards.'}
                   </span>
                 </li>
               </ul>
@@ -427,7 +427,7 @@ export function Home() {
                   decoding="async"
                 />
                 <span className="service-card__badge">
-                  {isArabic ? 'بتشطيبات أكثر سلاسة وجودة' : 'WITH SMOOTH N BETTER FINISHES'}
+                  {isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finish'}
                 </span>
               </div>
               <div className="service-card__body">
@@ -742,7 +742,7 @@ export function Home() {
             <p className="section-intro reveal-text delay-3" style={{ margin: '0 auto' }}>
               {isArabic
                 ? 'نقدم معايير مقاولات مؤسسية تجمع بين الاعتمادات الرسمية لدى كبار المطورين وتشطيبات أكثر سلاسة وجودة.'
-                : 'Institutional-grade contracting combining master developer pre-qualification with smooth and better finishes.'}
+                : 'Institutional-grade contracting combining master developer pre-qualification with smooth and better finish.'}
             </p>
           </div>
 
@@ -762,18 +762,18 @@ export function Home() {
               </p>
             </div>
 
-            {/* Pillar 2: Smooth and better finishes */}
+            {/* Pillar 2: Smooth and better finish */}
             <div className="why-card reveal-card delay-2">
               <div className="why-card__icon">
                 <Award size={24} />
               </div>
               <h3 className="why-card__title">
-                {isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finishes'}
+                {isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finish'}
               </h3>
               <p className="why-card__text">
                 {isArabic
                   ? 'ننفذ أعمال تجديد وتأهيل الفلل في دبي بتشطيبات أكثر سلاسة وجودة، مع عناية دقيقة بالأعمال المدنية والسباكة والكهرباء.'
-                  : 'We deliver villa renovation and refurbishment projects across Dubai with smooth and better finishes, careful civil work, plumbing, and electrical coordination.'}
+                  : 'We deliver villa renovation and refurbishment projects across Dubai with smooth and better finish, careful civil work, plumbing, and electrical coordination.'}
               </p>
             </div>
 
@@ -783,7 +783,7 @@ export function Home() {
                 <Clock size={24} />
               </div>
               <h3 className="why-card__title">
-                {isArabic ? '10 سنوات تأسيس و22 سنة خبرة' : '10 Yrs Company • 22 Yrs Experience'}
+                {isArabic ? '10 سنوات تأسيس و22 سنة خبرة' : '10 Years Company • 22 Years Experience'}
               </h3>
               <p className="why-card__text">
                 {isArabic
@@ -947,7 +947,7 @@ export function Home() {
           <p className="reveal-text delay-2" style={{ color: 'var(--text-secondary)', fontSize: '1.05rem', lineHeight: 1.7, marginBottom: '2rem' }}>
             {isArabic
               ? 'مقاول معتمد لدى شركاء مشاريع في الإمارات، 10 سنوات تأسيس، 22 عاماً خبرة، وتشطيبات أكثر سلاسة وجودة في مشاريع التجديد بدبي. دعم للطوارئ فقط 24/7 وعن طريق الاتصال فقط.'
-              : 'Quality-first UAE project delivery. 10 years established company, 22 years experience, 50+ completed projects, and smooth and better finishes supported by 24/7 emergency call support.'}
+              : 'Quality-first UAE project delivery. 10 years established company, 22 years experience, 50+ completed projects, and smooth and better finish supported by 24/7 emergency call support.'}
           </p>
 
           <div className="reveal-on-scroll delay-3" style={{ display: 'flex', justifyContent: 'center', gap: '1rem', flexWrap: 'wrap' }}>
