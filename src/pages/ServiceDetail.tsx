@@ -133,7 +133,7 @@ export function ServiceDetail() {
               {isRenovation && (
                 <span className="developer-pill" style={{ background: 'hsla(38, 55%, 60%, 0.2)', borderColor: 'var(--color-gold)' }}>
                   <Award size={15} />
-                  <span>{isArabic ? 'ضمان 2-3 سنوات في دبي' : '2–3 Years Renovation Warranty (Dubai)'}</span>
+                  <span>{isArabic ? 'بتشطيبات أكثر سلاسة وجودة' : 'WITH SMOOTH N BETTER FINISHES'}</span>
                 </span>
               )}
               <span className="developer-pill">
