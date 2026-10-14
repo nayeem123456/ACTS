@@ -168,8 +168,8 @@ export function Footer() {
           </div>
           <div className="footer__disclaimer">
             {isArabic
-              ? 'مقاول مسجل ومعتمد لدى شركاء مشاريع في الإمارات في الإمارات • 10 سنوات شركة • 22 سنة خبرة • 50+ مشروعاً منجزاً • دعم للطوارئ فقط 24/7 وعن طريق الاتصال فقط • ضمان 2-3 سنوات على التجديد في دبي.'
-              : 'Registered Contractor with UAE Project Partners • 10 Years Company • 22 Years Experience • 50+ Projects Completed • 24/7 active only in emergency conditions via call only • 2–3 Years Renovation Warranty in Dubai.'}
+              ? 'مقاول مسجل ومعتمد لدى شركاء مشاريع في الإمارات في الإمارات • 10 سنوات شركة • 22 سنة خبرة • 50+ مشروعاً منجزاً • تشطيبات أكثر سلاسة وجودة • دعم للطوارئ فقط 24/7 وعن طريق الاتصال فقط.'
+              : 'Registered Contractor with UAE Project Partners • 10 Years Company • 22 Years Experience • 50+ Projects Completed • Smooth and better finishes • 24/7 emergency call support only.'}
           </div>
         </div>
       </div>

@@ -86,7 +86,7 @@ export function Projects() {
           <div className="reveal-on-scroll delay-3" style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', marginTop: '1.75rem' }}>
             <span className="developer-pill">
               <Award size={16} />
-              <span>{isArabic ? 'ضمان 2-3 سنوات على التجديد' : '2–3 Years Renovation Warranty'}</span>
+              <span>{isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finishes'}</span>
             </span>
             <span className="developer-pill">
               <Clock size={16} />

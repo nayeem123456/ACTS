@@ -49,7 +49,7 @@ export function About() {
             </span>
             <span className="developer-pill">
               <Award size={16} />
-              <span>{isArabic ? 'ضمان 2-3 سنوات على التجديد في دبي' : '2–3 Years Dubai Renovation Warranty'}</span>
+              <span>{isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finishes'}</span>
             </span>
             <span className="developer-pill">
               <Clock size={16} />
@@ -82,8 +82,8 @@ export function About() {
 
               <p className="reveal-text delay-3" style={{ color: 'var(--text-secondary)', lineHeight: 1.8, marginBottom: '2rem' }}>
                 {isArabic
-                  ? 'بصفتنا مقاولاً معتمداً ومسجلاً رسمياً لدى شركاء مشاريع في الإمارات في الإمارات، نلتزم بأعلى معايير السلامة والجودة والاشتراطات الهندسية للمطورين. ونمنح عملاءنا في دبي ضماناً رسمياً يمتد من 2 إلى 3 سنوات على مشاريع التجديد والتأهيل، مع دعم للطوارئ فقط 24/7 وعن طريق الاتصال فقط.'
-                  : 'We operate with deep familiarity of project requirements, municipal NOC submissions, and rigorous quality benchmarks. For comprehensive renovation and refurbishment projects in Dubai, we provide an official 2 to 3 years warranty, supported by 24/7 active support only in emergency conditions via call only.'}
+                  ? 'بصفتنا مقاولاً معتمداً ومسجلاً رسمياً لدى شركاء مشاريع في الإمارات في الإمارات، نلتزم بأعلى معايير السلامة والجودة والاشتراطات الهندسية للمطورين، ونقدم تشطيبات أكثر سلاسة وجودة في مشاريع التجديد والتأهيل بدبي، مع دعم للطوارئ فقط 24/7 وعن طريق الاتصال فقط.'
+                  : 'We operate with deep familiarity of project requirements, municipal NOC submissions, and rigorous quality benchmarks. For comprehensive renovation and refurbishment projects in Dubai, we deliver smooth and better finishes, supported by 24/7 active support only in emergency conditions via call only.'}
               </p>
 
               {/* Approach to Quality */}
@@ -133,12 +133,12 @@ export function About() {
                     <Award size={22} style={{ color: 'var(--color-gold)', flexShrink: 0, marginTop: '2px' }} />
                     <div>
                       <strong style={{ display: 'block', fontSize: '0.95rem', color: 'var(--text-primary)' }}>
-                        {isArabic ? 'ضمان رسمي 2-3 سنوات على التجديد في دبي' : '2–3 Years Renovation & Refurbishment Warranty'}
+                        {isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finishes'}
                       </strong>
                       <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
                         {isArabic
-                          ? 'ضمان حقيقي مكتوب يغطي الأعمال الإنشائية، تكسيات الرخام، التمديدات الكهروميكانيكية، وجودة المواد المركبة.'
-                          : 'Comprehensive written warranty on Dubai renovation projects protecting your finishes, plumbing, electrical installations, and structural works.'}
+                          ? 'تشطيبات أكثر سلاسة وجودة تغطي الأعمال الإنشائية، تكسيات الرخام، التمديدات الكهروميكانيكية، وجودة المواد المركبة.'
+                          : 'Smooth and better finishes across Dubai renovation projects, with careful attention to plumbing, electrical installations, and structural works.'}
                       </span>
                     </div>
                   </div>
@@ -200,7 +200,7 @@ export function About() {
                 </div>
               </div>
 
-              {/* Warranty Card */}
+              {/* Finish quality card */}
               <div
                 className="card reveal-card delay-2"
                 style={{
@@ -213,13 +213,13 @@ export function About() {
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem', marginBottom: '0.75rem' }}>
                   <Award size={22} style={{ color: 'var(--color-gold)' }} />
                   <h3 style={{ fontSize: '1.15rem', fontWeight: 700, margin: 0 }}>
-                    {isArabic ? 'ضمان التجديد والتأهيل (2 إلى 3 سنوات)' : '2–3 Years Renovation Warranty (Dubai)'}
+                    {isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finishes'}
                   </h3>
                 </div>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.7, margin: 0 }}>
                   {isArabic
-                    ? 'نمنح عملاءنا في دبي ضماناً شاملاً يمتد من 2 إلى 3 سنوات على مشاريع التجديد والتأهيل والتشطيبات الكهروميكانيكية والإنشائية، مدعوماً بخدمة صيانة واستجابة نشطة 24/7.'
-                    : 'For comprehensive villa renovation and refurbishment projects in Dubai, ACTS provides an official 2 to 3 years warranty on civil works, structural finishes, and integrated MEP systems.'}
+                    ? 'ننفذ مشاريع التجديد والتأهيل الشاملة في دبي بتشطيبات أكثر سلاسة وجودة، مع تنسيق دقيق للأعمال المدنية والإنشائية وأنظمة الكهروميكانيك.'
+                    : 'For comprehensive villa renovation and refurbishment projects in Dubai, ACTS delivers smooth and better finishes across civil works, structural details, and integrated MEP systems.'}
                 </p>
               </div>
 
@@ -262,8 +262,8 @@ export function About() {
                 </div>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.7, margin: 0 }}>
                   {isArabic
-                    ? 'تقديم خدمات مقاولات وتشطيب هندسي متكاملة ترتقي بالمساحات السكنية والتجارية في الإمارات، مع حماية استثمارات عملائنا عبر ضمانات حقيقية وأعلى معايير الإتقان والسلامة.'
-                    : 'To deliver uncompromising contracting precision, timeless luxury craftsmanship, and dependable project management that elevates living spaces across the UAE while protecting client investments with guaranteed warranties.'}
+                    ? 'تقديم خدمات مقاولات وتشطيب هندسي متكاملة ترتقي بالمساحات السكنية والتجارية في الإمارات، مع تشطيبات أكثر سلاسة وجودة وأعلى معايير الإتقان والسلامة.'
+                    : 'To deliver uncompromising contracting precision, timeless luxury craftsmanship, and dependable project management that elevates living spaces across the UAE with smooth and better finishes.'}
                 </p>
               </div>
             </div>
@@ -291,8 +291,8 @@ export function About() {
               </h3>
               <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', margin: 0 }}>
                 {isArabic
-                  ? 'مقاول مسجل لدى شركاء مشاريع في الإمارات • ضمان 2-3 سنوات على التجديد في دبي • دعم للطوارئ فقط 24/7 وعن طريق الاتصال فقط.'
-                  : 'UAE Project Partners • 2–3 Years Renovation Warranty • 24/7 Emergency Call Support Only.'}
+                  ? 'مقاول مسجل لدى شركاء مشاريع في الإمارات • تشطيبات أكثر سلاسة وجودة • دعم للطوارئ فقط 24/7 وعن طريق الاتصال فقط.'
+                  : 'UAE Project Partners • Smooth and better finishes • 24/7 Emergency Call Support Only.'}
               </p>
             </div>
             <div style={{ display: 'flex', gap: '1rem' }}>

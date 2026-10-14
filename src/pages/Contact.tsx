@@ -14,8 +14,8 @@ export function Contact() {
         title={isArabic ? 'اتصل بنا مباشرة للطوارئ (24/7 عبر الاتصال) — أكتس الإمارات' : 'Contact Us Directly for Emergencies (24/7 Call Only) — ACTS UAE'}
         description={
           isArabic
-            ? 'تواصل مباشرة مع أكتس (24/7): مقاول مسجل لدى شركاء مشاريع في الإمارات، 10 سنوات شركة، 22 سنة خبرة، وضمان 2-3 سنوات على التجديد في دبي.'
-            : 'Connect directly with ACTS for emergencies (24/7 active only in emergency conditions via call only): Quality-first UAE project delivery. 10 years company, 22 years experience, and 2–3 years warranty in Dubai.'
+            ? 'تواصل مباشرة مع أكتس (24/7): مقاول مسجل لدى شركاء مشاريع في الإمارات، 10 سنوات شركة، 22 سنة خبرة، وتشطيبات أكثر سلاسة وجودة.'
+            : 'Connect directly with ACTS for emergencies (24/7 active only in emergency conditions via call only): Quality-first UAE project delivery. 10 years company, 22 years experience, and smooth and better finishes.'
         }
         canonicalUrl="/contact"
       />
@@ -47,7 +47,7 @@ export function Contact() {
             </span>
             <span className="developer-pill">
               <Award size={16} />
-              <span>{isArabic ? 'ضمان 2-3 سنوات على التجديد' : '2–3 Years Renovation Warranty (Dubai)'}</span>
+              <span>{isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finishes'}</span>
             </span>
             <span className="developer-pill">
               <Clock size={16} />
@@ -447,13 +447,13 @@ export function Contact() {
                   <ShieldCheck size={22} />
                 </div>
                 <h3 style={{ fontSize: '1.2rem', fontWeight: 700, margin: 0, color: 'var(--text-primary)' }}>
-                  {isArabic ? 'ضمان المقاول المسجل' : 'Accredited Contractor'}
+                  {isArabic ? 'اعتماد المقاول المسجل' : 'Accredited Contractor'}
                 </h3>
               </div>
               <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', lineHeight: 1.7 }}>
                 {isArabic
-                  ? 'مقاول معتمد لدى شركاء مشاريع في الإمارات، مع 10 سنوات كشركة في الإمارات و22 عاماً من الخبرة، وضمان 2-3 سنوات على التجديد في دبي.'
-                  : 'Quality-first UAE project delivery, with 10 years corporate standing, 22 years experience, and 2–3 years warranty on Dubai renovations.'}
+                  ? 'مقاول معتمد لدى شركاء مشاريع في الإمارات، مع 10 سنوات كشركة في الإمارات و22 عاماً من الخبرة وتشطيبات أكثر سلاسة وجودة.'
+                  : 'Quality-first UAE project delivery, with 10 years corporate standing, 22 years experience, and smooth and better finishes on Dubai renovations.'}
               </p>
               <div style={{ marginTop: '1.25rem', display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--color-gold-light)', fontSize: '0.85rem', fontWeight: 600 }}>
                 <CheckCircle2 size={16} />

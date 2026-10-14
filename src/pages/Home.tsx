@@ -64,8 +64,8 @@ export function Home() {
           a: 'نعم، شركة أكتس (ACTS) مقاول مسجل ومعتمد رسمياً لدى شركاء مشاريع في الإمارات في الإمارات، ونقوم بالتنسيق المباشر مع بلدية دبي وتراخيص وكافة المطورين لاستخراج تصاريح التجديد والتعديلات الهندسية.',
         },
         {
-          q: 'ما هي فترة الضمان المقدمة على مشاريع التجديد والتأهيل؟',
-          a: 'نقدم ضماناً رسمياً يمتد من سنتين إلى 3 سنوات (2-3 Years) على كافة أعمال التجديد والتأهيل والتشطيبات الكهروميكانيكية والإنشائية في دبي، مما يمنح عملاءنا راحة بال تامة وجودة تدوم طويلاً.',
+          q: 'كيف تضمنون جودة مشاريع التجديد والتأهيل؟',
+          a: 'نركز على تشطيبات أكثر سلاسة وجودة عبر مواد عالية الجودة، تنسيق دقيق بين جميع التخصصات، وفحص متواصل للأعمال الكهروميكانيكية والإنشائية في دبي.',
         },
         {
           q: 'كم تبلغ خبرة الشركة وسجل مشاريعها في الإمارات؟',
@@ -82,8 +82,8 @@ export function Home() {
           a: 'Yes, our team coordinates with project stakeholders and Dubai Municipality to secure mandatory permits and NOCs before work begins.',
         },
         {
-          q: 'What warranty is provided for renovation and refurbishment projects?',
-          a: 'For comprehensive renovation and refurbishment projects in Dubai, ACTS provides an official 2 to 3 years warranty covering structural finishes, architectural joinery, plumbing, and integrated MEP systems.',
+          q: 'How does ACTS maintain quality on renovation and refurbishment projects?',
+          a: 'For comprehensive renovation and refurbishment projects in Dubai, ACTS delivers smooth and better finishes across structural work, architectural joinery, plumbing, and integrated MEP systems.',
         },
         {
           q: 'What is ACTS company track record and industry experience?',
@@ -194,9 +194,9 @@ export function Home() {
           </div>
           <div>
             <span className="trust-badge-item__highlight">
-              {isArabic ? 'ضمان التجديد والتأهيل' : 'Renovation Warranty'}
+              {isArabic ? 'تشطيبات التجديد والتأهيل' : 'Renovation Finishes'}
             </span>
-            <span>{isArabic ? 'ضمان موثوق وجودة ثابتة' : 'Trusted quality warranty'}</span>
+            <span>            {isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finishes'}</span>
           </div>
         </div>
 
@@ -256,8 +256,8 @@ export function Home() {
               </p>
               <p className="company-intro__text reveal-text delay-3">
                 {isArabic
-                  ? 'نحن ندمج بين الحرفية العالية، والإدارة الهندسية الصارمة للمشاريع، والالتزام بالمواعيد المحددة لنقدم حلولاً متكاملة ترفع من قيمة عقارك وجودة معيشتك في دولة الإمارات، مع تقديم ضمان رسمي يمتد من سنتين إلى ثلاث سنوات على التجديد في دبي.'
-                  : 'We blend master craftsmanship, disciplined engineering management, and transparent budgeting to deliver enduring spaces that exceed the exacting standards of UAE homeowners and property investors — backed by an official 2 to 3 years warranty on Dubai renovation projects.'}
+                  ? 'نحن ندمج بين الحرفية العالية، والإدارة الهندسية الصارمة للمشاريع، والالتزام بالمواعيد المحددة لنقدم حلولاً متكاملة ترفع من قيمة عقارك وجودة معيشتك في دولة الإمارات، مع تشطيبات أكثر سلاسة وجودة في مشاريع التجديد بدبي.'
+                  : 'We blend master craftsmanship, disciplined engineering management, and transparent budgeting to deliver enduring spaces that exceed the exacting standards of UAE homeowners and property investors — with smooth and better finishes on Dubai renovation projects.'}
               </p>
 
               {/* Developer registration pill tag */}
@@ -298,9 +298,9 @@ export function Home() {
                 </div>
               </div>
               <div className="stat-item reveal-stat delay-4">
-                <div className="stat-item__number">2–3</div>
+                <div className="stat-item__number">A+</div>
                 <div className="stat-item__label">
-                  {isArabic ? 'سنوات ضمان على التجديد في دبي' : 'Years Renovation Warranty (Dubai)'}
+                  {isArabic ? 'معايير تشطيب متميزة في دبي' : 'Premium finishing standards in Dubai'}
                 </div>
               </div>
               <div className="stat-item reveal-stat delay-5">
@@ -373,10 +373,10 @@ export function Home() {
                 </li>
                 <li className="renovation-feature__list-item">
                   <span>
-                    <strong>{isArabic ? 'الضمان والموافقات الرسمية:' : 'Warranty & Approvals:'}</strong>{' '}
+                    <strong>{isArabic ? 'الجودة والموافقات الرسمية:' : 'Quality & Approvals:'}</strong>{' '}
                     {isArabic
-                      ? 'ضمان رسمي من 2 إلى 3 سنوات على التجديد في دبي مع إجراءات مرخصة لدى شركاء مشاريع في الإمارات والبلدية.'
-                      : 'For renovation and refurbishment, we normally provide a 2–3 years warranty in Dubai, with work delivered to high UAE project standards.'}
+                      ? 'تشطيبات أكثر سلاسة وجودة في مشاريع التجديد بدبي مع إجراءات مرخصة لدى شركاء مشاريع في الإمارات والبلدية.'
+                      : 'For renovation and refurbishment, we deliver smooth and better finishes in Dubai, with work completed to high UAE project standards.'}
                   </span>
                 </li>
               </ul>
@@ -741,8 +741,8 @@ export function Home() {
             <div className="gold-line reveal-text delay-2" style={{ margin: '0.75rem auto 1.25rem' }} />
             <p className="section-intro reveal-text delay-3" style={{ margin: '0 auto' }}>
               {isArabic
-                ? 'نقدم معايير مقاولات مؤسسية تجمع بين الاعتمادات الرسمية لدى كبار المطورين وضمانات التنفيذ الحقيقية.'
-                : 'Institutional-grade contracting combining master developer pre-qualification with guaranteed warranty standards.'}
+                ? 'نقدم معايير مقاولات مؤسسية تجمع بين الاعتمادات الرسمية لدى كبار المطورين وتشطيبات أكثر سلاسة وجودة.'
+                : 'Institutional-grade contracting combining master developer pre-qualification with smooth and better finishes.'}
             </p>
           </div>
 
@@ -762,18 +762,18 @@ export function Home() {
               </p>
             </div>
 
-            {/* Pillar 2: 2-3 Years Warranty */}
+            {/* Pillar 2: Smooth and better finishes */}
             <div className="why-card reveal-card delay-2">
               <div className="why-card__icon">
                 <Award size={24} />
               </div>
               <h3 className="why-card__title">
-                {isArabic ? 'ضمان 2-3 سنوات على التجديد' : '2–3 Years Renovation Warranty'}
+                {isArabic ? 'تشطيبات أكثر سلاسة وجودة' : 'Smooth and better finishes'}
               </h3>
               <p className="why-card__text">
                 {isArabic
-                  ? 'نمنح ضماناً رسمياً موثقاً من سنتين إلى 3 سنوات على مشاريع تجديد وتأهيل الفلل في دبي يغطي الأعمال المدنية والتشطيبات والسباكة والكهرباء.'
-                  : 'Comprehensive 2 to 3 years warranty on all villa renovation and refurbishment projects across Dubai, safeguarding your real estate investment.'}
+                  ? 'ننفذ أعمال تجديد وتأهيل الفلل في دبي بتشطيبات أكثر سلاسة وجودة، مع عناية دقيقة بالأعمال المدنية والسباكة والكهرباء.'
+                  : 'We deliver villa renovation and refurbishment projects across Dubai with smooth and better finishes, careful civil work, plumbing, and electrical coordination.'}
               </p>
             </div>
 
@@ -855,7 +855,7 @@ export function Home() {
           <div style={{ textAlign: 'center', maxWidth: '720px', margin: '0 auto 3rem' }}>
             <span className="section-label reveal-badge">{isArabic ? 'الأسئلة الشائعة' : 'Client FAQ'}</span>
             <h2 className="section-title reveal-text delay-1">
-              {isArabic ? 'إجابات حول الاعتمادات والضمانات والمشاريع' : 'Answers on Accreditations, Warranties & Scope'}
+              {isArabic ? 'إجابات حول الاعتمادات والجودة والمشاريع' : 'Answers on Accreditations, Quality & Scope'}
             </h2>
             <div className="gold-line reveal-text delay-2" style={{ margin: '0.75rem auto 1.25rem' }} />
           </div>
@@ -946,8 +946,8 @@ export function Home() {
           </h2>
           <p className="reveal-text delay-2" style={{ color: 'var(--text-secondary)', fontSize: '1.05rem', lineHeight: 1.7, marginBottom: '2rem' }}>
             {isArabic
-              ? 'مقاول معتمد لدى شركاء مشاريع في الإمارات، 10 سنوات تأسيس، 22 عاماً خبرة، وضمان من 2 إلى 3 سنوات على التجديد في دبي. دعم للطوارئ فقط 24/7 وعن طريق الاتصال فقط.'
-              : 'Quality-first UAE project delivery. 10 years established company, 22 years experience, 50+ completed projects, and 24/7 active support only in emergency conditions via call only, plus a 2–3 years renovation warranty in Dubai.'}
+              ? 'مقاول معتمد لدى شركاء مشاريع في الإمارات، 10 سنوات تأسيس، 22 عاماً خبرة، وتشطيبات أكثر سلاسة وجودة في مشاريع التجديد بدبي. دعم للطوارئ فقط 24/7 وعن طريق الاتصال فقط.'
+              : 'Quality-first UAE project delivery. 10 years established company, 22 years experience, 50+ completed projects, and smooth and better finishes supported by 24/7 emergency call support.'}
           </p>
 
           <div className="reveal-on-scroll delay-3" style={{ display: 'flex', justifyContent: 'center', gap: '1rem', flexWrap: 'wrap' }}>

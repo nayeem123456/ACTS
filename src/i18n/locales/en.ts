@@ -31,7 +31,7 @@ const en = {
     renovationTitle: 'Renovation & Refurbishment',
     renovationSubtitle: 'Our Primary Service',
     renovationText:
-      'From villa transformations to full interior refurbishments, ACTS manages every aspect of your renovation and refurbishment project — civil works, finishing, MEP coordination, and landscaping — with clear communication and quality execution. For renovation and refurbishment, we normally provide a 2–3 years warranty in Dubai.',
+      'From villa transformations to full interior refurbishments, ACTS manages every aspect of your renovation and refurbishment project — civil works, finishing, MEP coordination, and landscaping — with clear communication, smooth and better finishes, and quality execution.',
     renovationCta: 'Explore Renovation Services',
     featuredProjectsTitle: 'Project Highlights',
     featuredProjectsNote:
@@ -66,7 +66,7 @@ const en = {
   about: {
     pageTitle: 'About ACTS — 10 Years Company, 22 Years Experience',
     metaDescription:
-      'Discover ACTS: 10 years as an established UAE company, 22 years of experience, 50+ completed projects, and 2-3 years renovation warranty in Dubai.',
+      'Discover ACTS: 10 years as an established UAE company, 22 years of experience, 50+ completed projects, and smooth and better finishes in Dubai.',
     headline: 'About ACTS UAE',
     overviewTitle: 'Company Overview & Credentials',
     overviewText:
@@ -91,10 +91,10 @@ const en = {
     registrationsText:
       'ACTS serves UAE project partners all over the UAE, delivering structural, architectural, MEP, landscaping, garden civil, and joinery fit-out works with genuine parts and high-quality materials.',
     registrationsNote: '',
-    warrantyTitle: '2–3 Years Renovation & Refurbishment Warranty',
-    warrantyText:
-      'For renovation and refurbishment projects in Dubai, ACTS provides an official 2 to 3 years warranty on civil works, structural finishes, and integrated MEP systems, backed by 24/7 support only in emergency conditions via call only.',
-    warrantyNote: '',
+    finishTitle: 'Smooth and better finishes',
+    finishText:
+      'For renovation and refurbishment projects in Dubai, ACTS delivers smooth and better finishes across civil works, structural details, and integrated MEP systems, backed by 24/7 support only in emergency conditions via call only.',
+    finishNote: '',
     contactCta: 'Contact ACTS Directly',
   },
 
@@ -820,7 +820,7 @@ const en = {
     headline: 'Project Gallery',
     subheadline:
       'A selection of work from the ACTS portfolio. Project captions and details will be added once confirmed by the client.',
-    note: 'Quality-first UAE project delivery • 10 Years Company • 22 Years Experience • 2–3 Years Renovation Warranty in Dubai',
+    note: 'Quality-first UAE project delivery • 10 Years Company • 22 Years Experience • Smooth and Better Finishes',
     filterAll: 'All',
     filterRenovation: 'Renovation',
     filterLandscaping: 'Landscaping',
@@ -841,7 +841,7 @@ const en = {
     emailPlaceholder: '[Email to be confirmed]',
     navTitle: 'Navigation',
     rights: '© 2026 ACTS. All rights reserved.',
-    disclaimer: 'ACTS delivers renovation, refurbishment, MEP, landscaping, and specialist works across the UAE. 10 years of company experience, 50+ projects completed, 24/7 support only in emergency conditions via call only, and 2–3 years warranty on renovation & refurbishment in Dubai.',
+    disclaimer: 'ACTS delivers renovation, refurbishment, MEP, landscaping, and specialist works across the UAE. 10 years of company experience, 50+ projects completed, 24/7 support only in emergency conditions via call only, and smooth and better finishes.',
   },
 
   // ─── Search ──────────────────────────────────────────────────────────────────
