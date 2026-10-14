@@ -427,7 +427,7 @@ export function Home() {
                   decoding="async"
                 />
                 <span className="service-card__badge">
-                  {isArabic ? 'ضمان 2-3 سنوات' : '2–3 Yrs Warranty'}
+                  {isArabic ? 'بتشطيبات أكثر سلاسة وجودة' : 'WITH SMOOTH N BETTER FINISHES'}
                 </span>
               </div>
               <div className="service-card__body">
