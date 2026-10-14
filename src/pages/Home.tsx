@@ -334,7 +334,7 @@ export function Home() {
               />
               <span className="renovation-feature__badge">
                 <ShieldCheck size={14} style={{ flexShrink: 0 }} />
-                <span>{isArabic ? 'ضمان 2–3 سنوات في دبي' : '2–3 Years Dubai Warranty'}</span>
+                <span>{isArabic ? 'بتشطيبات أكثر سلاسة وجودة' : 'WITH SMOOTH N BETTER FINISHES'}</span>
               </span>
             </div>
 
